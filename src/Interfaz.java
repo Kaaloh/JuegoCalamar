@@ -8,7 +8,7 @@ import java.awt.Color;
 import javax.swing.JTextField;
 import javax.swing.SwingConstants;
 
-public class Prueba1 extends JFrame {
+public class Interfaz extends JFrame {
 
 	private JPanel contentPane;
 	private JTextField textField;
@@ -20,7 +20,7 @@ public class Prueba1 extends JFrame {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					Prueba1 frame = new Prueba1();
+					Interfaz frame = new Interfaz();
 					frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -32,7 +32,7 @@ public class Prueba1 extends JFrame {
 	/**
 	 * Create the frame.
 	 */
-	public Prueba1() {
+	public Interfaz() {
 		setBackground(Color.WHITE);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 918, 595);
